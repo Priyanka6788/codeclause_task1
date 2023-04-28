@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+.topnav {
+	background-color: white;
+  	overflow: hidden;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+	</style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" >
+	<ul>
+ 	<a href="#home" class="active">Home</a>
+  	<a href="#about">About</a>
+	<a href="#services">Skills</a>
+  	<a href="#contact">Contacts</a>
+    <a href="#footer">About Us</a>
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</ul>
+    <section id="home">
+    	<div class="main">
+            <image src="priyanka photo .jpg" alt="main"  style="margin-top: 1px; height: 70%; width: 50%;margin-bottom: 5%;margin-right: 50px;"></image></div>
+			<div class="p">
+            <p style="color: black; font-size:28px;"><i>Hi There..<br>
+              I AM <b style="color: orange; font-size: 40px;"><strong>PRIYANKA SONI</b></strong><br>
+              I Am A Front-End Developer
+              and A Creative Designer And Developer, Who Aims To Work
+              With Small Businesses And Marginalized Communities To
+              Bring Their Passions To Life. 1 Offer Both Design And
+              Development Services Of Web Applications Or Websites. 
+              I'm Working As A Website Developer On The MERN Stack At 
+              OASIS INFOBYTE.</i></p>
+            </div>
+    </section>		
+
+    <section style="color:black;" id="about">
+		<center>
+      <div style="font-size: 32px; margin: 3px 0px 0px 0px; padding-top: 50px;"> 
+      <h1>ABOUT</h1></div>
+    </center>
+    <div class="bg">
+      <div class="row">
+         <div class="box">
+           <p>
+            <h1><strong>Internship</strong></h1>
+            [Web Development and Web Designing]<br><br>
+            • Oasis Infobyte <br><br>
+            • Code Clause<br><br>
+            • Sync Intern<br><br>
+          </p>
+         </div>
+         <div class="box" style="font-size:medium;">
+          <p><h1><strong>Education</strong></h1>
+            Master Of Computer Application<br>
+            Shri Vaishnav Vidhyapeeth Vishwavidhyalaya<br>
+            CGPA: 7.50<br>
+    
+            Bachelor Of Computer Application <br>
+            Swami Vivekanand Subharti University<br>
+            Percentage:68% <br>
+    
+            Higher Secondary Examination (U.P. Board)<br>
+            2017- G.D.N.D.S.N Inter College<br>
+            Percentage :72%<br>
+    
+            High School Examination (U.P. Board)<br>
+            2015 – G.D.N.D.S.N Inter College<br>
+            Percentage:80%<br></p>
+        </div>
+        <div class="box">
+          <p><h1><strong>Project</strong></h1><br>
+            - Calculator (HTML, CSS, JS)<br><br>
+            - Registration page (HTML, CSS, JS)<br><br>
+            - Temperature converter (HTML, CSS, JS)<br><br>
+            - Unit Converter (HTML, CSS, JS)<br><br>
+            - Portfolio (HTML, CSS, JS)<br><br>
+            </p>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    </section>	
+
+    <section id="services">
+    	<h1 class="headings" style="color: black;">SKILLS</h1>
+    	<div class="row">
+    		<div class="box">
+    			<img src="html css javascript.png" alt="img">
+                <h1 class="headings">HTML<br>CSS<br>JAVASCRIPT</h1>
+    		</div>
+    		<div class="box">
+    			<img src="c c++.jpeg" alt="img">
+                <h1 class="headings">C<br>&<br>C++</h1>
+    		</div>
+    		<div class="box">
+    			<img src="python django.png" alt="img">
+                <h1 class="headings">Python<br>&<br>Django</h1>
+    		</div>
+    	</div>		
+    </section>				
+
+    <section id="contact">
+    	<h1 class="headings" style="color: white;">CONTACT</h1>
+    	<form action="" class="form">
+    		<input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+    		<input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+    		<textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+    		<input type="submit" value="SEND" id="send">
+    	</form>	
+    </section>	
+</div>
+<!-- footer...... -->
+<footer class="site-footer" style="background-color: black; color: white;">
+    <div class="container" id="footer" style="margin-top: 20px;">
+      <div class="row">
+        <div class="col-md-3"> 
+          <h3>Contact Us</h3>
+          <ul class="contact">
+            <li><i class="fa fa-map-marker"></i>Hoshangabaad</li><br>
+            <li><i class="fa fa-phone"></i>8886543870</li><br>
+            <li><i class="fa fa-envelope"></i><a href="mailto:priyanka@hotmail.com">priyanka@hotmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Follow Us</h3>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="facebook.jpg" style="height: 24px;"><i class="fa fa-facebook"></i>Facebook</a></li><br>
+            <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="twitter.jpg" style="height: 24px;"><i class="fa fa-twitter"></i>Twitter</a></li><br>
+            <li><a href="https://www.instagram.com/accounts/login/"><img src="instagram-social-media-icon-design-template-vector-png_127006.jpg" style="height: 24px;"><i class="fa fa-instagram"></i>Instagram</a></li><br>
+            <!-- <li><a href="https://in.linkedin.com/"><img src="linkedin.png" style="height: 24px;"><i class="fa fa-linkedin"></i>LinkedIn</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p><strong>&copy; 2023 Priyanka Soni- All rights reserved.</strong></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>    			
